@@ -24,7 +24,7 @@ os.environ['OPENAI_API_KEY'] = os.getenv("OPENAI_API_KEY")
 query = sys.argv[1]
 
 #loads a txt file where you can input data and the response will be based on the data
-loader = TextLoader('langChainTEXTtest.txt')
+loader = TextLoader('LangChainQAgpt/langChainTEXTtest.txt')
 
 #this can be used to load a directory of txt (used for multiple txt files)
 #loader = DirectoryLoader(".", glob="*.txt")

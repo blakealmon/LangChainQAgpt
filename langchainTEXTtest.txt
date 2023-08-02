@@ -1,1 +1,1 @@
-{'name': 'Microsoft', 'news': "As of July 25, 2023, Microsoft has released their earnings report, which is available on their Investor Relations website. The report indicates that the strength of Microsoft's Cloud service is driving their fourth quarter earnings."}
+You can input anything here 
