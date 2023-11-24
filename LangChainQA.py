@@ -22,7 +22,7 @@ os.environ['OPENAI_API_KEY'] = os.getenv("OPENAI_API_KEY")
 #this is where you ask the model a question
 # type this into the terminal to get a response : python3 LangChainQAgpt/LangChainQA.py "The question your asking"
 #query = sys.argv[1]
-query = "Summarize this text for me in 5 sentences then put everything in json format with it being called 'redditsummary' "
+query = "How did Ezra'a get her message out to others? a. She created an educational website b. She organized huge public protests c. She took a world tour and spoke countless countries d. She wrote letters to the politicians in Bahrain."
 
 #loads a txt file where you can input data and the response will be based on the data
 loader = TextLoader('LangChainQAgpt/langChainTEXTtest.txt')
