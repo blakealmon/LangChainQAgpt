@@ -7,10 +7,7 @@ import os
 import sys
 
 from langchain.document_loaders import TextLoader
-from langchain.document_loaders import DirectoryLoader
 from langchain.indexes import VectorstoreIndexCreator
-from langchain.llms import OpenAI
-from langchain.chat_models import ChatOpenAI
 
 #dot env for not leaking the openai API key
 from dotenv import load_dotenv
